@@ -1,7 +1,26 @@
 /* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
+h1{
+text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(43, 43, 43);
+    padding: 0px;
+    margin: 0px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(70, 70, 70);
 
+}
 body {
   background-color: #DBC380;
   color: black;
