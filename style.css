@@ -9,6 +9,7 @@ text-align: center;
     background-color: rgb(43, 43, 43);
     padding: 0px;
     margin: 0px;
+    overflow: hidden;
 }
 .navbar a{
     color: white;
@@ -35,4 +36,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 30px 150px;
+}
+nav li{
+    float: left;
 }
